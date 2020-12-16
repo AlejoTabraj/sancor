@@ -1,0 +1,8 @@
+.heroFooter{
+	border: 1px solid red;
+	height: 13vh;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}

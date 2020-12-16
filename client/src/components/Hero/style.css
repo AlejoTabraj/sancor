@@ -1,0 +1,83 @@
+.heroWrapper{
+	border: 1px solid black;
+	height: 90vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: flex-end;
+	padding: 0 15%;
+}
+
+.heroFormWrapper{
+	border: 1px solid black;
+	border-radius: 10px;
+	padding: 1.5rem;
+	width: 300px;
+	height: 130px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	margin-bottom: -1.5rem
+}
+.heroFormWrapper h2{
+	border: 1px solid black;
+	font-size: 2rem;
+}
+.heroFormWrapper input{
+	height: 1.5rem;
+	border-radius: 5px;
+}
+.heroFormWrapper button{
+	width: 6rem;
+	text-align: center;
+	height: 1.5rem;
+}
+
+.circleWrap{
+	border: 1px solid black;
+	display: flex;
+	justify-content: flex-end;
+	padding: 0 4rem;
+}
+
+.circle{
+	border: 1px solid red;
+	width: 3rem;
+	height: 3rem;
+	background-color: blue;
+	border-radius: 50%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: white;
+}
+
+/* estylos para offer*/
+
+.heroOfferWrapper{
+	border: 1px solid black;
+	border-radius: 50%;
+	width: 250px;
+	height: 250px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	margin-right: 2rem;
+}
+
+.heroOffer{
+	display: flex;
+	align-items: center;
+}
+
+.heroOffer h2, p {
+	text-align: center;
+	font-size: 1.5rem;
+}
+
+.heroOffer h2{
+	font-size: 3.8rem;
+}
+
+

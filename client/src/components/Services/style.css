@@ -1,0 +1,41 @@
+.servicesContainer{
+	border: 1px solid black;
+	width: 100%;
+	height: 70vh;
+}
+.servicesContainer h2{
+	width: 100%;
+	height: 20%;
+	display: flex;
+	justify-content: center;
+	align-items: flex-end;
+	margin-bottom: -2rem;
+	font-size: 3rem;
+}
+
+.servicesWrapper{
+	border: 1px solid red;
+	height: 80%;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	text-align: center;
+	padding: 0 15%;
+}
+
+.serviceElement{
+	border: 1px dashed green;
+	height: 14rem;
+	width: 12rem;
+	border-radius: 10px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.imgContainer{
+	border: 1px solid black;
+	height: 8rem;
+}
+
