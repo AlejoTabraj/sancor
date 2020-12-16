@@ -5,7 +5,9 @@
 	flex-direction: column;
 	justify-content: space-around;
 	align-items: flex-end;
-	padding: 0 15%;
+    padding: 0 15%;
+    background-image: url('../img/Home.jpg');
+    background-size: cover;
 }
 
 .heroFormWrapper{

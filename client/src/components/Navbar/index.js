@@ -1,11 +1,11 @@
 import React from 'react'
 import './style.css'
-
+import sancor from '../img/sarcor.svg'
 export const Navbar = () => {
     return (
     <header className="navWrapper">
 		<nav className="nav">
-			<h1>SancorSalud</h1>		
+			<img src={sancor} alt='sancor logo'/>		
 			<div className="navLinkWrap">
 				<ul>
 					<li><a href="./">SOY ASOCIADO</a></li>
