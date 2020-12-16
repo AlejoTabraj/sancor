@@ -39,3 +39,21 @@
 	height: 8rem;
 }
 
+@media screen and (max-width: 768px){
+    .servicesContainer{
+        height: 70rem;
+        text-align: center;
+    }
+    .servicesWrapper{
+        flex-direction: column;
+
+    }
+    .servicesContainer h2{
+        justify-content: center;
+        align-items: center;
+    }
+    .serviceElement{
+        margin-bottom: 1rem;
+    }
+
+}

@@ -3,36 +3,36 @@ import './style.css'
 
 export const Services = () => {
     return (
-        <div class="servicesContainer">
+        <div className="servicesContainer">
 		<h2>¡Sí, todos son BIENVENIDOS!</h2>
-		<div class="servicesWrapper">
+		<div className="servicesWrapper">
 
-			<div class="serviceElement">
-				<div class="imgContainer">					
+			<div className="serviceElement">
+				<div className="imgContainer">					
 				</div>
 				<h3>Grupo Familiar</h3>
 				<a href="./">QUIERO COTIZAR</a>				
 			</div>
 
 
-			<div class="serviceElement">
-				<div class="imgContainer">					
+			<div className="serviceElement">
+				<div className="imgContainer">					
 				</div>
 				<h3>En Relación de <br/>Dependencia</h3>
 				<a href="./">QUIERO COTIZAR</a>				
 			</div>
 
 
-			<div class="serviceElement">
-				<div class="imgContainer">					
+			<div className="serviceElement">
+				<div className="imgContainer">					
 				</div>
 				<h3>Monotributistas</h3>
 				<a href="./">QUIERO COTIZAR</a>				
 			</div>
 
 
-			<div class="serviceElement">
-				<div class="imgContainer">					
+			<div className="serviceElement">
+				<div className="imgContainer">					
 				</div>
 				<h3>Autónomos</h3>
 				<a href="./">QUIERO COTIZAR</a>				

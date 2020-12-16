@@ -3,7 +3,7 @@ import './style.css'
 
 export const Beneficios = () => {
     return (
-    <div class="beneficiosContainer">
+    <div className="beneficiosContainer">
 		<h2>Beneficios para vos y tu familia</h2>
 		<ul>
 			<li>Consultas médicas al 100% en todas las especialidades.</li>

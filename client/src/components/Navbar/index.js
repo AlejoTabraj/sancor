@@ -3,10 +3,10 @@ import './style.css'
 
 export const Navbar = () => {
     return (
-    <header class="navWrapper">
-		<nav class="nav">
+    <header className="navWrapper">
+		<nav className="nav">
 			<h1>SancorSalud</h1>		
-			<div class="navLinkWrap">
+			<div className="navLinkWrap">
 				<ul>
 					<li><a href="./">SOY ASOCIADO</a></li>
 				</ul>

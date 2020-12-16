@@ -17,8 +17,11 @@
 	display: flex;
 	flex-direction: column;
 	justify-content: space-between;
-	margin-bottom: -1.5rem
+    margin-bottom: -1.5rem
+    
+    
 }
+
 .heroFormWrapper h2{
 	border: 1px solid black;
 	font-size: 2rem;
@@ -52,6 +55,7 @@
 	color: white;
 }
 
+
 /* estylos para offer*/
 
 .heroOfferWrapper{
@@ -81,3 +85,23 @@
 }
 
 
+@media screen and (max-width: 768px){
+
+        .heroWrapper{
+            padding-top: 1rem;
+            align-items: center;
+            width: 100%;
+            padding: 0;
+        }
+        .heroFormWrapper{
+            width: 250px;
+        }
+        
+        .heroFormWrapper h2{
+            font-size: 1.6rem;
+        }
+        .heroOfferWrapper{
+            margin: 0;
+            padding: 0;
+        }
+}
