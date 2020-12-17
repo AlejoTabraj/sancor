@@ -7,13 +7,23 @@ import './style.css'
 
 export const Hero = () => {
     const [telephone, setTelephone] = useState(0);
+    const [cargando, setCargando] = useState(false);
+    const [gracias, setGracias] = useState(false);
 
+    
 
     const handleSubmit = async(e) =>{
+         setCargando(true);
+
         e.preventDefault();
          
         await axios.post(`https://5000-e240e8cf-ac5d-4a13-a998-929559d9f681.ws-us03.gitpod.io`, { telephone })
-      
+        setCargando(false);
+        setGracias(true);
+        setTimeout(() =>{
+            setGracias(false)
+        }, 800)
+        e.target.reset();
 
     }
     return (
@@ -22,7 +32,9 @@ export const Hero = () => {
 		<form className="heroFormWrapper" onSubmit={handleSubmit}>            
 			<h2>¡Ingresá tu número <br/> y corizá tu plan ideal!</h2>	
 			<input onChange={e => setTelephone(e.target.value)} type="tel" name="telefono" placeholder="Ej. 1123563009(sin0)"/>
-        <button type='submit'>¡COTIZÁ!</button>	
+            <button type='submit'>
+            {cargando ? 'Cargando...': (gracias ? 'Listo': '¡COTIZÁ!')}
+            </button>
 		</form>	
 			<div className="circleWrap">				
 				<div className="circle">$0.00</div>				
