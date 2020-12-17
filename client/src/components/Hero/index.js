@@ -3,16 +3,17 @@ import axios from 'axios'
 import Offer from '../img/30_OFF.svg'
 import './style.css'
 
-export const Hero = () => {
-    const [telphone, setTelephone] = useState(0);
 
-    const handleSubmit = e =>{
+
+export const Hero = () => {
+    const [telephone, setTelephone] = useState(0);
+
+
+    const handleSubmit = async(e) =>{
         e.preventDefault();
-        axios.post(``, { telphone })
-            .then(res => {
-        console.log(res);
-        console.log(res.data);
-      })
+         
+        await axios.post(`https://5000-e240e8cf-ac5d-4a13-a998-929559d9f681.ws-us03.gitpod.io`, { telephone })
+      
 
     }
     return (
