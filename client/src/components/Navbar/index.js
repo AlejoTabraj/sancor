@@ -1,6 +1,6 @@
 import React from 'react'
 import './style.css'
-import sancor from '../img/sarcor.svg'
+import sancor from '../img/logo.png'
 export const Navbar = () => {
     return (
     <header className="navWrapper">

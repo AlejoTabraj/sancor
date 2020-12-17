@@ -8,8 +8,10 @@ import { Beneficios } from './components/Beneficios';
 function App() {
   return (
     <div >
+        <div className='back'>
         <Navbar/>
         <Hero/>
+        </div>
         <HeroFooter/>
         <Services/>
         <Beneficios/>

@@ -1,0 +1,5 @@
+.back{
+    background-image: url('./components/img/Home.jpg');
+    background-size: cover;
+    width: 100%;
+}
